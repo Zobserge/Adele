@@ -1,0 +1,162 @@
+/*Basis ----------------------- */
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	font-family: "Roboto", "Arial", sans-serif;
+	color: #261C1B;
+	overflow: visible;
+	height: 100%;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Roboto", "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+  
+p, span {
+	font-family: "Roboto", "Arial", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Fonts ----------------------- */
+
+@font-face {
+    font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 100;
+	src: 
+		 url('../../build/fonts/roboto-thin_0-webfont.woff2') format('woff2'),
+         url('../../build/fonts/roboto-thin_0-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: 
+		url('../../build/fonts/roboto-v18-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../../build/fonts/roboto-v18-cyrillic_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: 
+		url('../../build/fonts/roboto-italic_0-webfont.woff2') format('woff2'),
+        url('../../build/fonts/roboto-italic_0-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: 
+		url('../../build/fonts/roboto-v18-cyrillic_latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../../build/fonts/roboto-v18-cyrillic_latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 900;
+	src: 
+		url('../../build/fonts/roboto-black_0-webfont.woff2') format('woff2'),
+		url('../../build/fonts/roboto-black_0-webfont.woff') format('woff');
+    
+}
+
+
+
+
+
+
+
+
+/*Container ----------------------- */
+	
+.container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
+
+
+
+@media (min-width: 576px) {
+	.container {
+		width: 540px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 720px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 960px;
+		max-width: 100%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1140px;
+		max-width: 100%;
+	}
+}
+
+
+
+
+
+@import 'varmix';
+@import 'header';
+@import 'content';
+@import 'footer';
+
